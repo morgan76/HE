@@ -1,0 +1,24 @@
+name: segmentation
+
+channels:
+  - conda-forge
+  - pytorch
+  - metric-learning
+
+dependencies:
+  - cudatoolkit=10.2
+  - cython=0.29
+  - python=3.8
+  - numpy=1.19.2
+  - faiss-gpu>=1.7.0
+  - librosa
+  - ffmpeg=4.3.1
+  - pytorch>=1.8.1
+  - pytorch-metric-learning=0.9.99
+  - tqdm>=4.36
+  - ujson=4.0.2
+  - pip
+  - git
+  - pip:
+    - madmom==0.16.1
+    - mido==1.2.10
