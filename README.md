@@ -7,7 +7,7 @@ The code is based on the implementation of [Conditional Similarity Networks](htt
 
 ## Table of Contents
 0. [Usage](#usage)
-0. [Requirements] (#requirements)
+0. [Requirements](#requirements)
 0. [Citing](#citing)
 0. [Contact](#contact)
 
