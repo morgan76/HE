@@ -17,7 +17,7 @@ class CondTripletDset(torch.utils.data.Dataset):
         self.feat_id = experiment_config.feat_id  
         self.split = split
         self.experiment_config = experiment_config
-        self.tracklist = find_files(os.path.join(self.ds_path, 'audio'), ext=self.experiment_config.dataset.audio_exts)[:10]
+        self.tracklist = find_files(os.path.join(self.ds_path, 'audio'), ext=self.experiment_config.dataset.audio_exts)
 
         if self.split == 'valid':
             d_path = '../msaf_/datasets/BeatlesTUT'
